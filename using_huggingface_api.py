@@ -1,7 +1,7 @@
 import requests
 
 API_URL = "https://api-inference.huggingface.co/models/ZB-Tech/Text-to-Image"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": "Bearer hf_xxxxxxxxxxxxxxxx"}  # should add your own api key here
 
 def query(payload):
 	response = requests.post(API_URL, headers=headers, json=payload)
